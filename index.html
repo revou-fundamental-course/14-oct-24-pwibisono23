@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <img src="assets/img/logo.png" alt="" width="60" height="60" />
+        </div>
+        <div class="navbar-menu">
+          <ul class="navbar-items">
+            <li class="navbar-pills active">
+              <a href="#home" class="navbar-link">Home</a>
+            </li>
+            <li class="navbar-pills">
+              <a href="#about" class="navbar-link">Our Profile</a>
+            </li>
+            <li class="navbar-pills">
+              <a href="#portfolio" class="navbar-link">Portfolio</a>
+            </li>
+            <li class="navbar-pills">
+              <a href="#contact" class="navbar-link">Message Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="main-title" id="home">
+          <h2 id="welcome-speech">
+            Hi <span id="nama"></span>, Welcome to Website
+          </h2>
+        </div>
+        <div class="main-img">
+          <img src="assets/img/4.jpg" alt="" width="1366" height="578" />
+        </div>
+        <div class="about-section" id="about">
+          <h2>About Us</h2>
+          <p>
+            Skybound Systems is a cutting-edge technology company specializing
+            in cloud-based solutions and innovative IT infrastructure. We
+            empower businesses to scale and optimize their operations through
+            seamless integration of cloud services, data management, and
+            automation. Our expertise spans across various industries, providing
+            secure and flexible solutions that enhance productivity and drive
+            digital transformation.
+          </p>
+        </div>
+        <div class="headquarter-section">
+          <h2>Our Offices</h2>
+          <div class="card-container">
+            <div class="card">
+              <div class="card-header">
+                <img src="assets/img/2.jpg" alt="" />
+              </div>
+              <div class="card-title">
+                <p>Skybound Systems HQ</p>
+              </div>
+              <div class="card-description">
+                <p>123 Innovation Drive</p>
+                <p>Tech Valley, CA 94016</p>
+                <p>United States</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <img src="assets/img/2.jpg" alt="" />
+              </div>
+              <div class="card-title">
+                <p>Skybound Regional Office</p>
+              </div>
+              <div class="card-description">
+                <p>456 Cloudscape Avenue</p>
+                <p>Silicon Plaza, TX 75201</p>
+                <p>United States</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <img src="assets/img/2.jpg" alt="" />
+              </div>
+              <div class="card-title">
+                <p>Skybound International</p>
+              </div>
+              <div class="card-description">
+                <p>789 Horizon Boulevard</p>
+                <p>Cyber City, Singapore 049315</p>
+                <p>Singapore</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="vimis-section">
+          <div class="vision">
+            <h2>Vision</h2>
+            <div class="vimis-items">
+              <div class="rounded">
+                <p>1</p>
+              </div>
+              <div class="items">
+                <p>Empower Business Growth</p>
+              </div>
+            </div>
+            <div class="vimis-items">
+              <div class="rounded">
+                <p>2</p>
+              </div>
+              <div class="items">
+                <p>Drive Innovation</p>
+              </div>
+            </div>
+            <div class="vimis-items">
+              <div class="rounded">
+                <p>3</p>
+              </div>
+              <div class="items">
+                <p>Ensure Security and Reliability</p>
+              </div>
+            </div>
+            <div class="vimis-items">
+              <div class="rounded">
+                <p>4</p>
+              </div>
+              <div class="items">
+                <p>Promote Sustainability</p>
+              </div>
+            </div>
+          </div>
+          <div class="mission">
+            <h2>Mission</h2>
+            <div class="vimis-items">
+              <div class="rounded">
+                <p>1</p>
+              </div>
+              <div class="items">
+                <p>Provide advanced IT solutions</p>
+              </div>
+            </div>
+            <div class="vimis-items">
+              <div class="rounded">
+                <p>2</p>
+              </div>
+              <div class="items">
+                <p>Continuously innovate</p>
+              </div>
+            </div>
+            <div class="vimis-items">
+              <div class="rounded">
+                <p>3</p>
+              </div>
+              <div class="items">
+                <p>Prioritize the security</p>
+              </div>
+            </div>
+            <div class="vimis-items">
+              <div class="rounded">
+                <p>4</p>
+              </div>
+              <div class="items">
+                <p>Eco-friendly technologies</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-section" id="contact">
+          <h2>Message Us</h2>
+          <div class="form-container">
+            <div class="form">
+              <form name="message-form" id="message-form">
+                <table>
+                  <tr>
+                    <td><label for="nama" class="form-label">Nama </label></td>
+                    <td>
+                      <input
+                        type="text"
+                        name="nama"
+                        class="form-input"
+                        id="nama"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>
+                      <input
+                        type="date"
+                        name="tgl_lahir"
+                        class="form-input"
+                        id="tgl_lahir"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>
+                      <input
+                        type="radio"
+                        name="gender"
+                        class="form-input-radio"
+                        id="gender"
+                        value="Laki - Laki"
+                      />
+                      Laki - laki
+                      <input
+                        type="radio"
+                        name="gender"
+                        class="form-input-radio"
+                        id="gender"
+                        value="Perempuan"
+                      />
+                      Perempuan
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Pesan</td>
+                    <td>
+                      <textarea
+                        name="pesan"
+                        id="pesan"
+                        class="form-input"
+                        rows="5"
+                        cols="40"
+                      ></textarea>
+                    </td>
+                  </tr>
+                </table>
+                <button class="btn-submit" id="submit">Submit</button>
+              </form>
+            </div>
+            <div class="message">
+              <div class="timestamp">
+                <p>Current Time : <span id="timestamp"></span></p>
+              </div>
+              <div class="messages">
+                <p>Nama : <span id="sender-fullname"></span></p>
+                <p>Tanggal Lahir : <span id="sender-birthdate"></span></p>
+                <p>Jenis Kelamin : <span id="sender-gender"></span></p>
+                <p>Pesan : <span id="sender-messages"></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <p>Created by Pangestu Wibisono</p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
